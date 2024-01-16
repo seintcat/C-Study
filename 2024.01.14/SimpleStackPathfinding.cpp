@@ -22,7 +22,7 @@ class Vector2Int
 int main()
 {
 	CustomStack<Vector2Int>* v2dStack = new CustomStack<Vector2Int>();
-	(*v2dStack).Push(Vector2Int(0, 0));
+	(*v2dStack).Push(new Vector2Int(0, 0));
 //	(*v2dStack).Push(Vector2Int(0, 1));
 //	(*v2dStack).Push(Vector2Int(0, 2));
 //	printf("%d\n", (*v2dStack).Pop().y);
